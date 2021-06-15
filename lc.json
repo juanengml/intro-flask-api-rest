@@ -2,7 +2,7 @@
   "serviceName": "myservice",
   "containers": {
      "myservice": {
-        "image": ":srmarinho/intro-flask-api-rest",
+        "image": ":srmarinho.intro_flask_api_rest.123",
         "ports": {
            "8080": "HTTP"
         }
