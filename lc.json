@@ -1,0 +1,15 @@
+{
+  "serviceName": "myservice",
+  "containers": {
+     "myservice": {
+        "image": ":srmarinho/intro-flask-api-rest",
+        "ports": {
+           "8080": "HTTP"
+        }
+     }
+  },
+  "publicEndpoint": {
+     "containerName": "myservice",
+     "containerPort": 8080
+  }
+}
