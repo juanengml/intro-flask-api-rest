@@ -23,7 +23,7 @@ require_login = False
 streamer = Streamer(port, require_login)
 
 
-endpoint = "https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_159&width=1920&height=1080"
+endpoint = "http://ec2-54-91-136-29.compute-1.amazonaws.com:9092/video_feed"
 
 
 def main():
