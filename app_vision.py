@@ -18,7 +18,7 @@ delay = 60  # FPS do vídeo
 detec = []
 
 #(1076, 184)
-port = 3431	
+port = 8080	
 require_login = False
 streamer = Streamer(port, require_login)
 
