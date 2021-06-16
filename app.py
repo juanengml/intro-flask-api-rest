@@ -28,7 +28,7 @@ class Report(Resource):
         
         return {'result': values}
 
-api.add_resource(Report, '/')
+api.add_resource(Report, '/report')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=8080,debug=True)
