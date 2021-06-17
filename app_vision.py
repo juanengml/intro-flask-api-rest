@@ -22,7 +22,7 @@ port = 8080
 require_login = False
 streamer = Streamer(port, require_login)
 
-
+        
 endpoint = "http://ec2-54-91-136-29.compute-1.amazonaws.com:9092/video_feed"
 
 
@@ -34,12 +34,6 @@ def main():
 
     while True:
         _, frame = video_capture.read()
-        #frame = imutils.rotate(frame, -10)
-        
-#        cv2.line(frame, (25, pos_linha), (1200, pos_linha), (255, 127, 0), 3)
-
-                        
-        #frame = draw_bbox(frame, bbox, label, conf)
     
         streamer.update_frame(frame)
 
