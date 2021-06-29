@@ -5,7 +5,7 @@ from datetime import timedelta
 import cv2
 #import cvlib as cv
 
-# http://insecam.org/en/view/912189/
+# http://insecam.org/en/view/912189/ 
 
 from console_logging.console import Console
 console = Console()
