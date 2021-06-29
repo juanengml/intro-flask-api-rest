@@ -10,6 +10,7 @@ import cv2
 from console_logging.console import Console
 console = Console()
 
+# test 
 detec = []
 
 #(1076, 184)
