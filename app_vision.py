@@ -10,21 +10,14 @@ import cv2
 from console_logging.console import Console
 console = Console()
 
-largura_min = 80  # Largura minima do retangulo
-altura_min = 80  # Altura minima do retangulo
-offset = 8  # Erro permitido entre pixel
-pos_linha = 210  # Posição da linha de contagem
-delay = 60  # FPS do vídeo
 detec = []
 
 #(1076, 184)
 port = 8080	
 require_login = False
 streamer = Streamer(port, require_login)
-
         
 endpoint = "http://ec2-54-91-136-29.compute-1.amazonaws.com:9092/video_feed"
-
 
 def main():
     [console.info("STARTING APP..STREET ANALITCS ...") for p in range(10)]
