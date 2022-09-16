@@ -28,7 +28,7 @@ importlib-metadata==4.5.0
 imutils==0.5.4
 itsdangerous==2.0.1
 Jinja2==3.0.1
-Mako==1.1.4
+Mako==1.2.2
 Markdown==3.3.4
 MarkupSafe==2.0.1
 numpy==1.19.5
